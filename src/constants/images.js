@@ -17,7 +17,6 @@ import tsLogo from '../assets/ts-logo.png';
 import iconLive from '../assets/live-icon.png';
 import iconHamburger from '../assets/icon-hamburger.svg';
 import iconClose from '../assets/icon-close.svg';
-import vsCodeImage from '../assets/vscode.jpg';
 import earth from '../assets/earth.svg';
 import web from '../assets/web.svg';
 import smartphone from '../assets/smartphone.svg';
@@ -45,7 +44,6 @@ export default {
   iconLive,
   iconHamburger,
   iconClose,
-  vsCodeImage,
   earth,
   web,
   smartphone,
