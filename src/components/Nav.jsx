@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { images, navLinks } from '../constants';
+import { images, data } from '../constants';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Nav = () => {
@@ -18,7 +18,7 @@ const Nav = () => {
         </a>
       </div>
       <div className="sm:flex hidden justify-end items-center gap-6">
-        {navLinks.map((link) => (
+        {data.navLinks.map((link) => (
           <a
             key={link.name}
             href={link.id}
@@ -38,7 +38,7 @@ const Nav = () => {
 
       {toggleMenu && (
         <div className="flex flex-col gap-6 absolute top-[100px] right-[50px] p-4 border-[2px] border-secondary rounded-2xl z-50">
-          {navLinks.map((link) => (
+          {data.navLinks.map((link) => (
             <a
               key={link.name}
               href={link.id}
