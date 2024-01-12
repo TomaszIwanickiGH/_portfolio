@@ -11,7 +11,9 @@ const About = () => {
         <p className="lg:text-[80px] md:text-[65px] text-[50px] tracking-wide text-neutral-300">Tomasz Iwanicki.</p>
         <p className="lg:text-[80px]  md:text-[65px] text-[40px] tracking-wide text-neutral-400">I'm a web developer</p>
       </div>
-      <p className="text-neutral-400 text-[18px] lg:w-[50%] sm:w-[70%]">I'm a web developer mainly focused on frontend. I build real-world projects with amazing UI and UX. I'm a web developer mainly focused on frontend. I build real-world projects with amazing UI and UX.</p>
+      <p className="text-neutral-400 text-[18px] lg:w-[50%] sm:w-[70%]">
+        I'm a web developer mainly focused on frontend. I specialize in bringing digital experiences to life through visually appealing and interactive user interfaces. My portfolio showcases a diverse range of projects where I have leveraged my skills in web development.
+      </p>
       <a
         href="#projects"
         className="w-[260px]"
