@@ -8,11 +8,11 @@ const App = () => {
           <Sidebar />
         </div>
       </div>
-      <div className="flex flex-col w-full gap-16 md:py-12 md:px-8 p-8">
+      <div className="flex flex-col w-full gap-16 md:py-12 md:pl-8 md:pr-20 p-8">
         <Nav />
         <About />
         <TechStack />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Contact />
       </div>
