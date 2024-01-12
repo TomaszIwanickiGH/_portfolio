@@ -1,4 +1,4 @@
 import images from './images';
-import navLinks from './data';
+import data from './data';
 
-export { images, navLinks };
+export { images, data };
