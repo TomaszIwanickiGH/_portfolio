@@ -3,8 +3,12 @@ import { Sidebar, Nav, About, TechStack, Experience, Projects, Contact } from '.
 const App = () => {
   return (
     <div className="flex w-full bg-primary  text-white gap-8 min-h-screen">
-      <Sidebar />
-      <div className="flex flex-col w-full">
+      <div className="md:flex hidden w-[8%]">
+        <div className="md:fixed">
+          <Sidebar />
+        </div>
+      </div>
+      <div className="flex flex-col w-full gap-16 md:py-12 md:px-8 p-8">
         <Nav />
         <About />
         <TechStack />
