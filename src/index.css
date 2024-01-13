@@ -10,3 +10,7 @@
   scroll-behavior: smooth;
   font-family: 'Cabin', sans-serif;
 }
+
+.custom-input {
+  @apply bg-primary px-6 py-4 rounded-md w-full text-secondary focus:border-secondary/50 hover:border-secondary/50 outline-none border-secondary border-[2px] cursor-pointer;
+}
