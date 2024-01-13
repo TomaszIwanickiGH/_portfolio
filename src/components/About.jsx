@@ -18,7 +18,7 @@ const About = () => {
         href="#projects"
         className="w-[260px]"
       >
-        <button className="py-3 px-6 border-[2px] w-[260px] border-secondary rounded-md mt-8 text-secondary text-[20px]">Check out my projects!</button>
+        <button className="py-3 px-6 border-[2px] w-[260px] border-secondary rounded-md mt-8 text-secondary hover:border-secondary/50 hover:text-secondary/80 text-[20px]">Check out my projects!</button>
       </a>
     </div>
   );
