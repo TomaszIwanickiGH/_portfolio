@@ -74,16 +74,16 @@ const skills = [
 const projects = [
   {
     image: images.audiophile,
-    title: 'AUDIOPHILE',
-    description: 'Audiophile is an e-commerce website, which allows users to purchase headphones, speakers and airpods. The website provides lots of different audio devices.',
+    title: 'AUDIONEST',
+    description: 'AudioNest is an e-commerce website, which allows users to purchase headphones, speakers and airpods. The website provides lots of different audio devices.',
     tech: 'ReactJS Tailwind CSS Redux',
     githubLink: 'https://github.com/TomaszIwanickiGH/audiophile',
     liveDemo: 'https://ti-audiophile.online/',
   },
   {
     image: images.kanban,
-    title: 'KANBAN TASK',
-    description: 'The task app simplifies your day, helping you organize, prioritize, and track your activities effortlessly. Stay productive with a user-friendly interface that keeps your tasks at your fingertips."',
+    title: 'TASKIFY',
+    description: 'Taskify app simplifies your day, helping you organize, prioritize, and track your activities effortlessly. Stay productive with a user-friendly interface that keeps your tasks at your fingertips."',
     tech: 'NextJS Tailwind CSS Zustand',
     githubLink: 'https://github.com/TomaszIwanickiGH/',
     liveDemo: 'https://ti-kanban.online',
