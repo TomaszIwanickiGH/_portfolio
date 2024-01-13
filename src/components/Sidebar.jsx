@@ -15,6 +15,9 @@ const Sidebar = () => {
         </a>
       </div>
       <div className="flex flex-col gap-8 justify-center items-center">
+        <div className="mb-16">
+          <p className="-rotate-90 tracking-wide text-neutral-400">tomasz.iwanicki@onet.pl</p>
+        </div>
         <div className="flex flex-col gap-4">
           <TbBrandGithub
             fontSize="30px"
