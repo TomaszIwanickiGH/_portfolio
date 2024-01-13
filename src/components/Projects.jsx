@@ -3,12 +3,14 @@ import { data, images } from '../constants';
 import { TbBrandGithub } from 'react-icons/tb';
 
 const Project = ({ title, description, tech, image, githubLink, liveDemo }) => (
-  <div className="flex flex-col justify-center items-center gap-6 border-[2px] border-secondary border-dashed rounded-lg p-6">
-    <img
-      src={image}
-      alt="img"
-      className="max-w-[450px] max-h-[335px]"
-    />
+  <div className="flex flex-col justify-center items-center gap-6 border-[2px] border-secondary/30 rounded-lg p-6 hover:cursor-pointer hover:border-secondary">
+    <div className="h-[335px] flex items-center">
+      <img
+        src={image}
+        alt="img"
+        className="max-w-[450px] max-h-[335px]"
+      />
+    </div>
     <h3 className="text-[20px] text-secondary font-bold">{title}</h3>
     <p className="text-center text-neutral-400">{description}</p>
     <p className="text-secondary text-[18px]">{tech}</p>
