@@ -72,14 +72,14 @@ const Contact = () => {
           title="Contact me."
         />
       </div>
-      <div className="flex flex-row-reverse justify-center mt-6 gap-12">
-        <div className="flex flex-col gap-6 text-neutral-300 w-full pt-12">
+      <div className="flex md:flex-row-reverse flex-col-reverse justify-center md:mt-6 gap-12">
+        <div className="flex flex-col gap-6 text-neutral-300 w-full md:pt-12">
           <h3 className="text-center text-[40px] text-white">Or use this!</h3>
-          <div className="flex items-center gap-4 p-4 border-2 border-secondary rounded-md min-w-[300px]">
+          <div className="flex items-center gap-4 p-4 border-2 border-secondary rounded-md md:min-w-[300px]">
             <FaPhoneAlt />
             <p>794 478 594</p>
           </div>
-          <div className="flex items-center gap-4 p-4 border-2 border-secondary rounded-md min-w-[300px]">
+          <div className="flex items-center gap-4 p-4 border-2 border-secondary rounded-md md:min-w-[300px]">
             <FiMail />
             <p>tomasz.iwanicki@onet.pl</p>
           </div>
@@ -89,7 +89,6 @@ const Contact = () => {
           ref={formRef}
           onSubmit={handleSubmit}
         >
-          {/* <div className="w-[1px] h-[200px] bg-white" /> */}
           <div className="flex flex-col gap-4 w-full">
             <label className="flex flex-col gap-1">
               Name
@@ -125,10 +124,10 @@ const Contact = () => {
                 className="custom-input resize-none h-[150px]"
               ></textarea>
             </label>
-            <div className="mt-8">
+            <div className="mt-8 flex md:justify-start justify-center">
               <button
                 type="submit"
-                className="py-3 px-6 border-[2px] w-[260px] border-secondary hover:border-secondary/50 hover:text-secondary/80 rounded-md text-secondary text-[20px]"
+                className="py-3 px-6 border-[2px] md:w-[260px] border-secondary hover:border-secondary/50 hover:text-secondary/40 rounded-md text-secondary text-[20px]"
               >
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
