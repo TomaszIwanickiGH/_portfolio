@@ -4,7 +4,7 @@ import { data } from '../constants';
 const TechStack = () => {
   return (
     <div
-      className="flex flex-col gap-16 mt-20"
+      className="flex flex-col gap-16 md:mt-20 mt-12"
       id="stack"
     >
       <Heading
