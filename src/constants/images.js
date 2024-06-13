@@ -13,6 +13,7 @@ import reduxLogo from '../assets/redux-logo.svg';
 import routerLogo from '../assets/react-router.png';
 import framerMotionLogo from '../assets/framer-motion.png';
 import nextLogo from '../assets/next-logo.png';
+import mongodbLogo from '../assets/mongodb-logo.png';
 import tsLogo from '../assets/ts-logo.png';
 import iconLive from '../assets/live-icon.png';
 import iconHamburger from '../assets/icon-hamburger.svg';
@@ -22,6 +23,7 @@ import web from '../assets/web.svg';
 import smartphone from '../assets/smartphone.svg';
 import crowdfund from '../assets/crowdfund.png';
 import kanban from '../assets/kanban.png';
+import gericht from '../assets/gericht.png';
 import linkedin from '../assets/linkedin.png';
 
 export default {
@@ -36,6 +38,7 @@ export default {
   tailwindLogo,
   githubLogo,
   figmaLogo,
+  mongodbLogo,
   reduxLogo,
   routerLogo,
   framerMotionLogo,
@@ -49,5 +52,6 @@ export default {
   smartphone,
   crowdfund,
   kanban,
+  gericht,
   linkedin,
 };

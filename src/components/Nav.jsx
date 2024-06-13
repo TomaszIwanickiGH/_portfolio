@@ -7,7 +7,7 @@ const Nav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="flex md:justify-end justify-between items-center">
+    <div className="flex md:justify-end justify-between items-center bg-primary/70 z-10">
       <div className="md:hidden flex justify-center items-center w-[70px]">
         <a href="/">
           <img

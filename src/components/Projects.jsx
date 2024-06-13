@@ -29,7 +29,7 @@ const Project = ({ title, description, tech, image, githubLink, liveDemo }) => (
           <TbBrandGithub fontSize="30px" />
         </div>
       </a>
-      <a
+      {/* <a
         href={liveDemo}
         target="_blank"
       >
@@ -37,7 +37,7 @@ const Project = ({ title, description, tech, image, githubLink, liveDemo }) => (
           <p>Live Demo</p>
           <LiaShareSquare fontSize="30px" />
         </div>
-      </a>
+      </a> */}
     </div>
   </a>
 );

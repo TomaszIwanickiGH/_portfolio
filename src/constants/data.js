@@ -69,6 +69,10 @@ const skills = [
     icon: images.reduxLogo,
     name: 'Redux',
   },
+  {
+    icon: images.mongodbLogo,
+    name: 'MongoDB',
+  },
 ];
 
 const projects = [
@@ -82,11 +86,11 @@ const projects = [
   },
   {
     image: images.kanban,
-    title: 'TASKIFY',
-    description: 'Taskify app simplifies your day, helping you organize, prioritize, and track your activities effortlessly. Stay productive with a user-friendly interface that keeps your tasks at your fingertips.',
-    tech: 'NextJS Tailwind CSS Zustand',
+    title: 'TASK MANAGEMENT',
+    description: 'Kanban simplifies your day, helping you organize, prioritize, and track your activities effortlessly. Stay productive with a user-friendly interface that keeps your tasks at your fingertips.',
+    tech: 'NextJS Tailwind CSS MongoDB',
     githubLink: 'https://github.com/TomaszIwanickiGH/taskify-task-nextjs',
-    liveDemo: 'https://ti-taskify.online',
+    liveDemo: 'https://taskify-task-nextjs.vercel.app/',
   },
   {
     image: images.designo,
@@ -94,24 +98,25 @@ const projects = [
     description: 'Discover diverse designs in one app – your ultimate solution for personalized and visually striking mobile experiences.',
     tech: 'ReactJS Tailwind CSS',
     githubLink: 'https://github.com/TomaszIwanickiGH/designo',
-    liveDemo: 'https://ti-designo.online',
-  },
-  {
-    image: images.movieland,
-    title: 'MOVIELAND',
-    description: 'Your shortcut to a world of films. Explore, discover, and enjoy a vast movie library with personalized recommendations in a sleek, user-friendly interface.',
-    tech: 'ReactJS Tailwind CSS Zustand',
-    githubLink: 'https://github.com/TomaszIwanickiGH/movieland',
-    liveDemo: 'https://ti-movieland.online',
+    // liveDemo: 'https://ti-designo-app.online',
+    liveDemo: 'https://designo-beige.vercel.app/',
   },
   // {
-  //   image: images.crowdfund,
-  //   title: 'CROWDFUND',
-  //   description: 'Crowdfund is a website which represents different funding methods.',
-  //   tech: 'React Tailwind',
-  //   githubLink: 'https://github.com/TomaszIwanickiGH',
-  //   liveDemo: 'https://ti-crowdfund.online',
+  //   image: images.movieland,
+  //   title: 'MOVIELAND',
+  //   description: 'Your shortcut to a world of films. Explore, discover, and enjoy a vast movie library with personalized recommendations in a sleek, user-friendly interface.',
+  //   tech: 'ReactJS Tailwind CSS Zustand',
+  //   githubLink: 'https://github.com/TomaszIwanickiGH/movieland',
+  //   liveDemo: 'https://ti-movieland.online',
   // },
+  {
+    image: images.gericht,
+    title: 'GERICHT',
+    description: 'Dine better with gericht app! Discover, book, and enjoy top-notch eateries hassle-free.',
+    tech: 'ReactJS CSS',
+    githubLink: 'https://github.com/TomaszIwanickiGH/gericht',
+    liveDemo: 'https://ti-gericht.online',
+  },
 ];
 
 export default { navLinks, skills, projects };
