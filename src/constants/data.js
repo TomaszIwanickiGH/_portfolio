@@ -82,7 +82,7 @@ const projects = [
     description: 'AudioNest is an e-commerce website, which allows users to purchase headphones, speakers and airpods. The website provides lots of different audio devices.',
     tech: 'ReactJS Tailwind CSS Redux',
     githubLink: 'https://github.com/TomaszIwanickiGH/audionest',
-    liveDemo: 'https://ti-audionest.online/',
+    liveDemo: 'https://audionest-three.vercel.app/',
   },
   {
     image: images.kanban,
@@ -115,7 +115,7 @@ const projects = [
     description: 'Dine better with gericht app! Discover, book, and enjoy top-notch eateries hassle-free.',
     tech: 'ReactJS CSS',
     githubLink: 'https://github.com/TomaszIwanickiGH/gericht',
-    liveDemo: 'https://ti-gericht.online',
+    liveDemo: 'https://gericht-black.vercel.app/',
   },
 ];
 
